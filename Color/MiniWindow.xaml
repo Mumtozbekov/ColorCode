@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:ColorCode"
         mc:Ignorable="d" 
         WindowStyle="None" ResizeMode="NoResize"
-        Title="MiniWindow" Height="200" Width="200" 
+        Title="MiniWindow" 
+        Height="200" Width="200" 
         Topmost="True">
     <WindowChrome.WindowChrome>
         <WindowChrome 
