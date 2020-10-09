@@ -1,0 +1,39 @@
+﻿<Window x:Class="ColorCode.MiniWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ColorCode"
+        mc:Ignorable="d" WindowStyle="None" ResizeMode="NoResize"
+        Title="MiniWindow" Height="200" Width="200" Topmost="True">
+    <WindowChrome.WindowChrome>
+        <WindowChrome 
+        CaptionHeight="0"
+        ResizeBorderThickness="4" />
+    </WindowChrome.WindowChrome>
+    <Grid Margin="-4">
+        <Border BorderThickness="5" BorderBrush="#ff007acc">
+            <Grid x:Name="centerGrid" MouseDown="centerGrid_MouseDown" Height="200" Width="200" Background="#ff2d2d30">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid>
+                    <StackPanel Margin="0 0 5 0" HorizontalAlignment="Right" Orientation="Horizontal" Height="20" VerticalAlignment="Top">
+                        <Button Style="{StaticResource StateButtons}" Height="20" Width="20"  Name="Minimize"  Background="#ff686868" Click="Minimize_Click">
+                            <Image Width="12" Source="/Resource/hide.png"/>
+                        </Button>
+                        <Button Background="#ff686868" Style="{StaticResource CloseButton}" BorderThickness="0"   Width="20" Height="20" Name="CloseButton" Click="CloseButton_Click" >
+                            <Image  Name="Close_Icon" Width="12" Source="/Resource/close-white.png" />
+                        </Button>
+                    </StackPanel>
+                </Grid>
+                <Label Content="ColorCode" Grid.Row="1" HorizontalAlignment="Center" Foreground="#ff686868" FontWeight="DemiBold" VerticalAlignment="Top"/>
+                <TextBox IsReadOnly="True" Name="tbHex" Text="#ff686868" Grid.Row="1" HorizontalAlignment="Center" FontSize="22" Foreground="White" Background="#ff686868" Width="150" Height="40" TextAlignment="Center"/>
+                <Label Content="RGB" Grid.Row="2" HorizontalAlignment="Center" Foreground="#ff686868" FontWeight="DemiBold" VerticalAlignment="Top"/>
+                <TextBox x:Name="tbRgb" Text="#ff686868" Grid.Row="2" HorizontalAlignment="Center" FontSize="18" VerticalContentAlignment="Center" Foreground="White" Background="#ff686868" Width="150" Height="40" TextAlignment="Center"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
