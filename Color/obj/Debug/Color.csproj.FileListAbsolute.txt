@@ -1,0 +1,17 @@
+C:\Users\Sarvarbek\source\repos\Color\Color\bin\Debug\Color.exe.config
+C:\Users\Sarvarbek\source\repos\Color\Color\bin\Debug\Color.exe
+C:\Users\Sarvarbek\source\repos\Color\Color\bin\Debug\Color.pdb
+C:\Users\Sarvarbek\source\repos\Color\Color\obj\Debug\Color.csprojAssemblyReference.cache
+C:\Users\Sarvarbek\source\repos\Color\Color\obj\Debug\MainWindow.g.cs
+C:\Users\Sarvarbek\source\repos\Color\Color\obj\Debug\App.g.cs
+C:\Users\Sarvarbek\source\repos\Color\Color\obj\Debug\Color_MarkupCompile.cache
+C:\Users\Sarvarbek\source\repos\Color\Color\obj\Debug\Color_MarkupCompile.lref
+C:\Users\Sarvarbek\source\repos\Color\Color\obj\Debug\MainWindow.baml
+C:\Users\Sarvarbek\source\repos\Color\Color\obj\Debug\Color.g.resources
+C:\Users\Sarvarbek\source\repos\Color\Color\obj\Debug\Color.Properties.Resources.resources
+C:\Users\Sarvarbek\source\repos\Color\Color\obj\Debug\Color.csproj.GenerateResource.cache
+C:\Users\Sarvarbek\source\repos\Color\Color\obj\Debug\Color.csproj.CoreCompileInputs.cache
+C:\Users\Sarvarbek\source\repos\Color\Color\obj\Debug\Color.exe
+C:\Users\Sarvarbek\source\repos\Color\Color\obj\Debug\Color.pdb
+C:\Users\Sarvarbek\source\repos\Color\Color\obj\Debug\App.baml
+C:\Users\Sarvarbek\source\repos\Color\Color\obj\Debug\Styles.baml
