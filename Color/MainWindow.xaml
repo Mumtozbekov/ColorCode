@@ -13,7 +13,7 @@
                 <SolidColorBrush >
                 </SolidColorBrush>
             </Border.BorderBrush>
-            <Grid Background="White" Opacity="0.01">
+            <Grid Background="White"  Opacity="0.01">
                 
             </Grid>
         </Border>
